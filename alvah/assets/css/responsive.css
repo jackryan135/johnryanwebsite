@@ -1,0 +1,257 @@
+/*========================================================================================
+                                 Start Responsive Style
+========================================================================================*/
+
+/*==================Large Display==============*/
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .container{
+        width: 970px;
+    }
+    h1{
+        font-size: 60px;
+    }
+    .author-link .btn-3 {
+        margin-bottom: 15px;
+    }
+    .service-content > p {
+        padding-right: 0;
+    }
+    .portfolio-item-content {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/*==================Medium Display==============*/
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .container{
+        width: 750px;
+    }
+    .navbar-nav > li {
+        margin-right: 0;
+    }
+    .skill .progress:nth-child(2){
+        margin-bottom: 0;
+    }
+    .progress-area {
+        padding-bottom: 50px;
+    }
+    .author-link a.btn-3 {
+        margin-right: 0;
+    }
+    .author-link .btn-3 {
+        margin-bottom: 15px;
+    }
+    .service-content > p {
+        padding-right: 0;
+    }
+     .portfolio-item-content {
+        width: 40px;
+        height: 40px;
+    }
+    .contact-info li {
+        margin-right: 0;
+    }
+    .entry-title > a {
+        font-size: 15px;
+    }
+}
+
+/*============ Tab Display==============*/
+@media only screen and (max-width: 767px){
+    .container{
+        width: 450px;
+    }
+    .ptb-1 {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .logo p{
+        line-height: 55px;
+    }
+    header.sticky .logo {
+        padding-top: 0px;
+    }
+    .navbar-toggle {
+        margin-top: -44px;
+        margin-right: 0;
+        cursor: pointer;
+    }
+    .navbar{
+        min-height: 0;
+    }
+    .nav.navbar-nav.navbar-right > li {
+        background: #f4f4f4;
+        border-bottom: 1px solid #444;
+    }
+    .navbar-nav > li {
+        display: block;
+        margin-right: 0;
+    }
+    .nav.navbar-nav.navbar-right > li:last-child{
+        border-bottom: 1px solid transparent;
+    }
+    .main-menu .navbar-nav > li > a {
+        line-height: 40px;
+        color: #333;
+    }
+    .sticky .main-menu .navbar-nav > li > a {
+        color: #333;
+        line-height: 30px;
+    }
+    .navbar-collapse {
+        box-shadow: none;
+    }
+    .main-menu .navbar-nav > li:hover ::before{
+        opacity: 0;
+    }
+    header.sticky .main-menu .navbar-nav li a:hover::before {
+        opacity: 0;
+    }
+    .sticky .main-menu .navbar-nav li.active a::before {
+        opacity: 0;
+    }
+}
+
+/*=============Medium Mobile Screen==============*/
+@media only screen and (min-width: 480px) and (max-width: 767px){
+    h1{
+        font-size: 35px;
+    }
+    .navbar-toggle {
+        cursor: pointer;
+    }
+    .logo{
+        padding-top: 10px;
+    }
+    .logo img {
+        padding-bottom: 12px;
+    }
+    .section-top-title h2 {
+        font-size: 30px;
+    }
+    .skill .progress:nth-child(2){
+        margin-bottom: 0;
+    }
+    .progress-area {
+        padding-bottom: 50px;
+    }
+    .resume-title {
+        text-align: center;
+    }
+    .subscribe-content h2 {
+        font-size: 22px;
+    }
+    .portfolio-menu button {
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-right: 0;
+    }
+    .copy-right {
+        text-align: center;
+    }
+    .social-link {
+        text-align: center;
+    }
+    .entry-title > a {
+        font-size: 15px;
+    }
+    .instagram-photo {
+        margin-bottom: 70px;
+        overflow: hidden;
+    }
+    .children {
+        margin-left: 0;
+    }
+}
+
+/*============Small Mobile Display==============*/
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+    .container {
+        width: 300px;
+    }
+    .navbar-toggle {
+        cursor: pointer;
+    }
+    h1{
+        font-size: 22px;
+        line-height: 42px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    h4{
+        font-size: 18px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .logo{
+        padding-top: 10px;
+    }
+    .logo img {
+        padding-bottom: 12px;
+    }
+    .banner-content > p {
+        font-size: 17px;
+    }       
+    .section-top-title h2 {
+        font-size: 25px;
+    }
+    .author-link a.btn-3 {
+        margin-bottom: 10px;
+    }
+    .skill .progress:nth-child(2){
+        margin-bottom: 0;
+    }
+    .progress-area {
+        padding-bottom: 50px;
+    }
+    .resume-title {
+        text-align: center;
+    }
+    .portfolio-item-content {
+        width: 40px;
+        height: 40px;
+    }
+    .portfolio-menu button {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-right: 0;
+    }
+    .portfolio-single-item:hover .project-title {
+        top: 33%;
+    }
+    .portfolio-single-item:hover .portfolio-item-content {
+        bottom: 20%;
+    }
+    .subscribe-content h2 {
+        font-size: 25px;
+    }
+    .info-text{
+        padding-left: 15px;
+    }
+    .copy-right {
+        text-align: center;
+    }
+    .social-link {
+        text-align: center;
+    }
+    .entry-title > a {
+        font-size: 15px;
+    }
+    .entry-meta > a {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .quote {
+        font-size: 17px;
+    }
+    .instagram-photo {
+        margin-bottom: 70px;
+        overflow: hidden;
+    }
+    .children {
+        margin-left: 0;
+    }
+}
